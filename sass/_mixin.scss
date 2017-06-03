@@ -1,0 +1,24 @@
+@mixin listreset {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+@mixin linkreset {
+  text-decoration: none;
+  color: inherit;
+}
+
+@mixin font ($size, $transf, $color: $acc_bright) {
+  font-family: 'OldStandard';
+  font-size: $size;
+  text-transform: $transf;
+  color: $color;
+}
+
+@mixin font2 ($size, $transf, $color: $acc_bright) {
+  font-family: 'Lora';
+  font-size: $size;
+  text-transform: $transf;
+  color: $color;
+}
